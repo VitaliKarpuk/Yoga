@@ -1,0 +1,678 @@
+@font-face {
+    font-family: "calibri";
+    src: url("./calibri-font-sv/calibri\ font\ sv/Calibri") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "calibri-light";
+    src: url("./calibri-font-sv/calibri\ font\ sv/calibri-light") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+    font-weight: bold;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./заглушка\ йога.psd.png) ;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper_content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.wrapper_content__left{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper_content__right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 5%;
+    width: 29%;
+    height: 15%;
+    background-image: url(./logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.connect{
+    width: 100%;
+    height: 40%;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+}
+.connect_text{
+    width: 70%;
+    height: 60%;
+    margin-left: 5%;
+    font-size: 10px;
+    color: #5c886a;
+}
+.connect_text p span{
+    color: #4f4848;
+}
+.connect_batton{
+    width: 70%;
+    height: 20%;
+    margin-left: 5%;
+    display: flex;
+}
+.batton_viber{
+    width: 50%;
+    height: 80%;
+    background-color: #9457ad;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 9%;
+    color: #ffffff;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.batton_vk{
+    width: 30%;
+    height: 80%;
+    background-color: #61a0be;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    font-size: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+.form{
+    width: 97%;
+    height: 60%;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    border-radius: 0 0 7% 7%;
+    background-image: url(./bc393648715f68603b79e1d173f86cee_копия_5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.phon_numder{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 9px;
+    color: #ffffff;
+}
+.phon_numder button{
+    width: 40%;
+    height: 30%;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    font-size: 9px;
+    color: #ffffff;
+}
+
+.form_inputs{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrepper_inputs{
+    width: 96%;
+    height: 96%;
+    border: 1px solid #ffffff;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrepper_inputs > div{
+    width: 85%;
+    height: 85%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrepper_inputs > div p{
+    width: 85%;
+    margin: 0;
+}
+.wrepper_inputs > div p span{
+    font-weight: bold;
+}
+.inputs{
+    width: 96%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputs input{
+    width: 100%;
+    height: 30%;
+    padding-left: 4%;
+    border-radius: 100px;
+    border: none;
+}
+.inputs button{
+    width: 104%;
+    height: 30%;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    background-color: #DD3575;
+    font-size: 10px;
+}
+.youtube {
+    width: 67%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: -42%;
+}
+.youtube i {
+    color: red;
+    margin-top: 5%;
+}
+.youtube i span{
+    color: black;
+    font-family: 'calibri';
+    font-weight: bold;
+    margin-right: 2%;
+}
+.youtube p{
+    margin-left: 4%;
+    font-size: 14px;
+    font-family: 'calibri';
+    font-style: oblique
+}
+#carouselExampleSlidesOnly{
+    width: 40%;
+    position: absolute;
+    top:24%;
+    left: 37%;
+}
+.request{
+    
+    display: none;
+}
+@media screen and (max-width: 2560px) {
+    .logo {
+        width: 73%;
+        height: 18%;
+    }
+    
+    .connect_text {
+        font-size: 28px;
+    }
+    .batton_viber {
+        font-size: 22px;
+    }
+    .batton_vk {
+        font-size: 22px;
+    }
+    .form {
+        width: 100%;
+        height: 55%;
+    }
+    .phon_numder p{
+        font-size: 26px;
+    }
+    .phon_numder button {
+        font-size: 26px;
+    }
+    .wrepper_inputs > div p span {
+        font-size: 33px;
+    }
+    .wrepper_inputs > div p {
+        font-size: 26px;
+    }
+    .inputs {
+        font-size: 26px;
+    }
+    .inputs button {
+        font-size: 26px;
+    }
+    .wrapper{
+        background-image: url(./background_2560.psd.png) ;
+    }
+    #carouselExampleSlidesOnly {
+        width: 52%;
+        position: absolute;
+        top: 37%;
+        left: 32%;
+    }
+    .youtube i {
+        margin-top: 0%;
+    }
+    .request{
+        display: none;
+    }
+}
+@media screen and (max-width: 1920px) {
+    .logo {
+        width: 61%;
+        height: 17%;
+    }
+    .connect_text {
+        font-size: 19px;
+    }
+    .connect_batton {
+        width: 80%;
+    }
+    .batton_viber {
+        font-size: 19px;
+    }
+    .batton_vk {
+        font-size: 19px;
+    }
+    .form {
+        width: 100%;
+        height: 55%;
+    }
+    .phon_numder p{
+        font-size: 19px;
+        margin: 0;
+    }
+    .phon_numder button {
+        font-size: 19px;
+    }
+    .wrepper_inputs > div p span {
+        font-size: 24px;
+    }
+    .wrepper_inputs > div p {
+        font-size: 19px;
+    }
+    .inputs {
+        font-size: 19px;
+    }
+    .inputs button {
+        font-size: 19px;
+    }
+    #carouselExampleSlidesOnly {
+        width: 52%;
+        position: absolute;
+        top: 39%;
+    }
+    .request{
+        display: none;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .wrapper_content__left {
+        width: 39%;
+        height: 75%;
+    }
+    .wrapper_content__left{
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 62%;
+        height: 25%;
+    }
+    .wrapper_content__left {
+        width: 49%;
+        height: 75%;
+    }
+    .connect_text {
+        margin-top: 5%;
+        font-size: 11px;
+    }
+    .connect_text p span {
+        font-size: 10px;
+    }
+    .connect_batton {
+        width: 75%;
+        font-size: 10px;
+    }
+    .batton_viber {
+        font-size: 10px;
+    }
+    .batton_vk {
+        font-size: 10px;
+        width: 35%;
+    }
+    .form {
+        height: 60%;
+    }
+    .phon_numder p {
+        font-size: 10px;
+    }
+    .phon_numder button {
+        font-size: 10px;
+    }
+    .wrepper_inputs > div p span {
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .wrepper_inputs > div p {
+        font-size: 12px;
+    }
+    .inputs {
+        font-size: 12px;
+    }
+    .inputs button {
+        font-size: 12px;
+    }
+    .youtube {
+        width: 67%;
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        right: -42%;
+    }
+    .youtube p {
+
+        margin-bottom: 0;
+    }
+    #carouselExampleSlidesOnly {
+        width: 45%;
+        position: absolute;
+        top: 31%;
+        left: 34%;
+    }
+}
+@media screen and (max-width: 1024px){
+ 
+    .wrapper_content{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .wrapper_content__left{
+        width: 55%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .wrapper_content__right{
+        width: 35%;
+    }
+    .logo{
+        width: 65%;
+        height: 18%;
+    }
+    .connect{
+        width: 100%;
+        height: 40%;
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+        background-color: #ffffff;
+        background: rgba(255, 255, 255, 0.6);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .connect_text{
+        width: 73%;
+        font-size: 14px;
+    }
+    .connect_text p span{
+        color: #4f4848;
+    }
+    .connect_batton{
+        width: 82%;
+    }
+    .batton_viber{
+        font-size: 12px;
+    }
+    
+    .batton_vk{
+        font-size: 12px;
+        width: 36%;
+    }
+    .form{
+        height: 45%;
+    }
+    .phon_numder p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .phon_numder button {
+        font-size: 14px;
+    }
+    
+    .form_inputs{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrepper_inputs > div p {
+        font-size: 20px;
+    }
+    .wrepper_inputs > div p span{
+        font-weight: bold;
+    }
+    .inputs{
+        width: 96%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inputs input{
+        width: 100%;
+        height: 30%;
+        padding-left: 4%;
+        border-radius: 100px;
+        border: none;
+    }
+    .inputs button{
+        width: 104%;
+        height: 30%;
+        border-radius: 100px;
+        border: none;
+        color: #ffffff;
+        background-color: #DD3575;
+        font-size: 10px;
+    }
+    #carouselExampleSlidesOnly {
+        width: 65%;
+        position: absolute;
+        top: 43%;
+        left: 37%;
+    }
+    .request{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .phon_numder p{
+        font-size: 12px;
+    }
+    .connect_text{
+        font-size: 12px;
+    }
+    .phon_numder button {
+        font-size: 10px;
+    }
+    .wrepper_inputs > div p {
+        font-size: 14px;
+    }
+    .wrepper_inputs > div p span {
+        font-size: 17px;
+    }
+    .inputs input {
+        font-size: 14px;
+    }
+    .youtube {
+        align-items: center;
+    }
+    .youtube i{
+        margin: 0;
+    }
+    .youtube p{
+        margin: 0;
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width: 414px) {
+    .wrapper{
+        background-image: url(./adaptiv.psd.png) ;
+    }
+    .logo{
+        margin-top: 10px;
+        width: 90px;
+        height: 80px;
+        background-image: url(./logo_adapt.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .form{
+        display: none;
+    }
+    #carouselExampleSlidesOnly {
+        width: 89%;
+        position: absolute;
+        top: 42%;
+        left: 15%;
+    }
+    .batton_viber {
+        width: 142px;
+        display: flex;
+        position: relative;
+        top: -256px;
+        left: 195px;
+        height: 28px;
+        font-size: 9px;
+    }
+    .connect_batton {
+        width: 100px;
+        height: 56px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .batton_vk {
+        width: 85px;
+        position: relative;
+        top: -242px;
+        left: 251px;
+        height: 28px;
+        font-size: 9px;
+    }
+    .wrapper_content__left {
+        width: 112%;
+        height: 46%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .wrapper_content {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .connect {
+        border: none;
+        background: rgba(255, 255, 255, 0);
+    }
+    .connect_text {
+        width: 70%;
+        height: 60%;
+        margin-left: 5%;
+        font-size: 10px;
+        color: black;;
+    }
+    .connect_text p span {
+        color: black;
+    }
+    .request {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 85%;
+        position: relative;
+        top: -81px;
+        border-radius: 30px;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        background-color: #DD3575;
+        margin: 0 auto;
+    }
+    .youtube{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 360px) {
+
+    .form{
+        display: none;
+    }
+
+    .batton_viber {
+        width: 105px;
+        position: relative;
+        top: -223px;
+        left: 195px;
+        height: 28px;
+    }
+    .batton_vk {
+        width: 85px;
+        position: relative;
+        top: -210px;
+        left: 214px;
+        height: 28px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .batton_viber {
+        top: -207px;
+        left: 179px;
+    }
+    .batton_vk {
+        top: -198px;
+        left: 199px;
+    }
+}
