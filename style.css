@@ -596,7 +596,7 @@ body{
         left: 37%;
     }
 }
-@media screen and (max-width: 840px) and (max-height: 414px){
+@media screen and (max-width: 736px) and (max-height: 414px){
     .logo {
         width: 46%;
         height: 21%;
