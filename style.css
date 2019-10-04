@@ -521,8 +521,17 @@ body{
     }
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 785px) {
+    .wrapper_content__left {
+        height: 63%;
+    }
+    .logo {
+        width: 65%;
+        height: 28%;
+    }
+    .connect {
+        height: 54%;
+    }
     .phon_numder p{
         font-size: 12px;
     }
@@ -550,6 +559,12 @@ body{
     .youtube p{
         margin: 0;
         margin-left: 4%;
+    }
+    #carouselExampleSlidesOnly {
+        width: 45%;
+        position: absolute;
+        top: 35%;
+        left: 37%;
     }
 }
 @media screen and (max-width: 414px) {
