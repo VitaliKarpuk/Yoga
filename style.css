@@ -628,7 +628,7 @@ a:hover{
         height: 28%;
     }
     .connect {
-        height: 54%;
+        height: 63%;
     }
     .phon_numder p{
         font-size: 12px;
@@ -709,9 +709,10 @@ a:hover{
     .batton_viber {
         font-size: 8px;
     }
+
     .batton_vk {
         font-size: 8px;
-        width: 36%;
+        width: 55%;
     }
     #carouselExampleSlidesOnly {
         width: 35%;
