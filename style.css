@@ -555,12 +555,9 @@ a:hover{
         top: 37%;
         left: 40%;
     }
-    .youtube {
-        width: 65%;
-    }
     .logo {
-        width: 46%;
-        height: 25%;
+        width: 55%;
+        height: 26%;
     }
     .wrapper_content__left {
         height: 85%;
@@ -574,6 +571,18 @@ a:hover{
     }
     .form {
         height: 114%;
+    }
+    .youtube {
+        width: 69%;
+        display: flex;
+        justify-content: flex-start;
+        left: 10%;
+    }
+    .wrapper_content__left {
+        height: 74%;
+    }
+    .connect {
+        height: 62%;
     }
 }
 @media screen and (max-width: 900px) {
