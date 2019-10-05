@@ -599,7 +599,7 @@ a:hover{
         width: 60%;
     }
     .form {
-        height: 86%%;
+        height: 86%;
     }
     .wrepper_inputs > div p span {
         font-weight: bold;
@@ -751,6 +751,18 @@ a:hover{
     .youtube p {
         font-size: 10px;
     }
+}
+@media screen and (max-width: 620px) and (max-height: 320px) {
+    .logo{
+        width: 55%;
+    }
+    .form {
+        height: 128%;
+    }
+    .youtube {
+        top: -6px;
+    }
+    
 }
 @media screen and (max-width: 414px) {
     .wrapper{
