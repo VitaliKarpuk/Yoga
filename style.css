@@ -16,6 +16,12 @@ body{
     font-family: 'Calibri';
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
 .wrapper{
     width: 100%;
     height: 100vh;
@@ -79,6 +85,9 @@ body{
     margin-left: 5%;
     display: flex;
 }
+.connect_batton a{
+    width: 100%;
+}
 .batton_viber{
     width: 50%;
     height: 80%;
@@ -93,6 +102,9 @@ body{
     color: #ffffff;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
+.batton_viber:hover{
+    opacity: 0.8;
+}
 
 .batton_vk{
     width: 30%;
@@ -106,6 +118,10 @@ body{
     align-items: center;
     color: #ffffff;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+    margin: 0;
+}
+.batton_vk:hover{
+    opacity: 0.8;
 }
 .form{
     width: 97%;
@@ -213,11 +229,18 @@ body{
     font-weight: bold;
     margin-right: 2%;
 }
-.youtube p{
+.youtube a{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.youtube a p{
+    margin: 0;
     margin-left: 4%;
     font-size: 14px;
     font-family: 'calibri';
-    font-style: oblique
+    font-style: oblique;
+    color: black;
 }
 #carouselExampleSlidesOnly{
     width: 40%;
@@ -240,9 +263,11 @@ body{
     }
     .batton_viber {
         font-size: 22px;
+        width: 88%;
     }
     .batton_vk {
         font-size: 22px;
+        width: 55%;
     }
     .form {
         width: 100%;
@@ -295,9 +320,13 @@ body{
     }
     .batton_viber {
         font-size: 19px;
+        margin: 0;
+        width: 98%;
     }
     .batton_vk {
         font-size: 19px;
+        margin-left: 2%;
+        width: 55%;
     }
     .form {
         width: 100%;
@@ -367,7 +396,7 @@ body{
     }
     .batton_vk {
         font-size: 10px;
-        width: 35%;
+        width: 50%;
     }
     .form {
         height: 60%;
@@ -458,9 +487,9 @@ body{
         font-size: 12px;
     }
     
-    .batton_vk{
+    .batton_vk {
         font-size: 12px;
-        width: 36%;
+        width: 52%;
     }
     .form{
         height: 45%;
@@ -558,6 +587,9 @@ body{
     .connect {
         height: 52%;
     }
+    .batton_vk {
+        width: 60%;
+    }
     .form {
         height: 50%;
     }
@@ -576,9 +608,6 @@ body{
         position: absolute;
         top: 35%;
         left: 38%;
-    }
-    .batton_vk {
-        width: 31%;
     }
 }
 
