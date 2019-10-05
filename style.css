@@ -752,7 +752,7 @@ a:hover{
         font-size: 10px;
     }
 }
-@media screen and (max-width: 620px) and (max-height: 320px) {
+@media screen and (max-width: 690px) and (max-height: 400px) {
     .logo{
         width: 55%;
     }
