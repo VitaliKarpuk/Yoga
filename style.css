@@ -599,7 +599,7 @@ a:hover{
         width: 60%;
     }
     .form {
-        height: 50%;
+        height: 86%%;
     }
     .wrepper_inputs > div p span {
         font-weight: bold;
@@ -650,7 +650,9 @@ a:hover{
     }
     .youtube {
         align-items: center;
+        height: 87%;
     }
+    
     .youtube i{
         margin: 0;
     }
@@ -663,6 +665,13 @@ a:hover{
         position: absolute;
         top: 35%;
         left: 37%;
+    }
+    .youtube {
+        width: 69%;
+        display: flex;
+        justify-content: flex-start;
+        left: 30%;
+        top: -57px;
     }
 }
 
@@ -694,6 +703,7 @@ a:hover{
         top: 35%;
         left: 34%;
     }
+    
 }
 @media screen and (max-width: 696px){
     .logo {
