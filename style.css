@@ -446,6 +446,23 @@ a:hover{
         left: 37%;
     }
 }
+@media screen and (max-width: 1400px) and (max-height:500px) {
+    .logo {
+        width: 45%;
+    }
+    .form {
+        height: 66%;
+    }
+    #carouselExampleSlidesOnly {
+        width: 33%;
+        position: absolute;
+        top: 30%;
+        left: 42%;
+    }
+    .connect {
+        height: 59%;
+    }
+}
 @media screen and (max-width: 1210px) {
     html{
         font-size: 5px;
