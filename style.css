@@ -695,7 +695,7 @@ a:hover{
         left: 34%;
     }
 }
-@media screen and (max-width: 676px) and (max-height: 376px){
+@media screen and (max-width: 676px){
     .logo {
         width: 55%;
         height: 26%;
