@@ -671,6 +671,9 @@ a:hover{
         width: 46%;
         height: 21%;
     }
+    .wrapper_content__left {
+        height: 76%;
+    }
     .connect_text {
         font-size: 10px;
     }
