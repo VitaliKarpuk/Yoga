@@ -248,14 +248,28 @@ a:hover{
     top:24%;
     left: 37%;
 }
-.request{
-    
+.btn{ 
     display: none;
+}
+.modal{
+    display: none;
+}
+.modal-content input{
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.modal-content button{
+    border-radius: 50px;
+    background-color: #DD3575;
+}
+.modal.show .modal-dialog {
+    background: rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 2560px) {
     .logo {
         width: 73%;
         height: 18%;
+        margin-bottom: 5px;
     }
     
     .connect_text {
@@ -303,7 +317,7 @@ a:hover{
     .youtube i {
         margin-top: 0%;
     }
-    .request{
+    .btn{
         display: none;
     }
 }
@@ -356,7 +370,7 @@ a:hover{
         position: absolute;
         top: 39%;
     }
-    .request{
+    .btn{
         display: none;
     }
 }
@@ -539,12 +553,12 @@ a:hover{
         font-size: 10px;
     }
     #carouselExampleSlidesOnly {
-        width: 65%;
+        width: 55%;
         position: absolute;
         top: 43%;
         left: 37%;
     }
-    .request{
+    .btn{
         display: none;
     }
 }
@@ -837,7 +851,7 @@ a:hover{
     .connect_text p span {
         color: black;
     }
-    .request {
+    .btn {
         display: flex;
         justify-content: center;
         align-items: center;
