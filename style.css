@@ -382,7 +382,7 @@ a:hover{
 }
 @media screen and (max-width: 1500px) {
     html{
-        font-size: 7px;
+        font-size: 6px;
     }
     .wrapper_content__left {
         width: 39%;
@@ -629,7 +629,23 @@ a:hover{
         left: 40%;
     }
 }
-
+@media screen and (max-width: 925px) and (max-height: 500px){
+    .logo{
+        width: 40%;
+    }
+    html{
+        font-size: 5px;
+    }
+    .batton_vk{
+        width: 40%;
+    }
+    #carouselExampleSlidesOnly {
+        width: 20%;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+    }
+}
 @media screen and (max-width: 784px) {
     .form {
         height: 134%;
