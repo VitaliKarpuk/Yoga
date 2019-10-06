@@ -104,6 +104,13 @@ a:hover{
     color: #ffffff;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
+.icon_viber {
+    width: 13%;
+    height: 3rem;
+    background-image: url(./viber.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .batton_viber:hover{
     opacity: 0.8;
 }
@@ -120,6 +127,13 @@ a:hover{
     color: #ffffff;
     box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
     margin: 0;
+}
+.icon_vk{
+    width: 19%;
+    height: 3rem;
+    background-image: url(./vk.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .batton_vk:hover{
     opacity: 0.8;
@@ -468,9 +482,9 @@ a:hover{
         font-size: 5px;
     }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1025px){
     html{
-        font-size: 7px;
+        font-size: 8px;
     }
     .wrapper_content{
         width: 90%;
@@ -479,9 +493,9 @@ a:hover{
         justify-content: space-between;
         position: relative;
     }
-    .wrapper_content__left{
+    .wrapper_content__left {
         width: 55%;
-        height: 55%;
+        height: 48%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -513,10 +527,10 @@ a:hover{
         width: 82%;
     }
     .batton_vk {
-        width: 52%;
+        width: 55%;
     }
     .form{
-        height: 45%;
+        height: 36%;
     }
     .phon_numder p{
         margin: 0;
@@ -554,10 +568,10 @@ a:hover{
         background-color: #DD3575;
     }
     #carouselExampleSlidesOnly {
-        width: 55%;
+        width: 41%;
         position: absolute;
-        top: 31%;
-        left: 25%;
+        top: 25%;
+        left: 38%;
     }
     .btn{
         display: none;
@@ -631,17 +645,23 @@ a:hover{
 }
 @media screen and (max-width: 784px) {
     .form {
-        height: 134%;
+        height: 57%;
     }
     .wrapper_content__left {
-        height: 63%;
+        height: 57%;
     }
     .logo {
-        width: 65%;
-        height: 28%;
+        width: 84%;
+        height: 23%;
     }
     .connect {
         height: 43%;
+    }
+    .connect_batton {
+        width: 92%;
+    }
+    .batton_vk {
+        width: 65%;
     }
     .youtube {
         align-items: center;
@@ -659,7 +679,7 @@ a:hover{
         width: 45%;
         position: absolute;
         top: 35%;
-        left: 37%;
+        left: 41%;
     }
     .youtube {
         width: 69%;
@@ -747,6 +767,13 @@ a:hover{
         background-image: url(./logo_adapt.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .icon_viber {
+        height: 2.4rem;
+        width: 14%;
+    }
+    .icon_vk {
+        height: 2.5rem;
     }
     .form{
         display: none;
