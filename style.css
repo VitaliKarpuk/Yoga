@@ -187,6 +187,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.btn_request{
+    background-color: #DD3575;
+    color: #ffffff;
+}
 .wrepper_inputs > div{
     width: 85%;
     height: 85%;
