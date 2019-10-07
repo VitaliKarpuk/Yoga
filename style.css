@@ -314,7 +314,9 @@ a:hover{
     font-style: italic;
     color: black;
 }
-
+.modal-content input {
+    border-radius: 0;
+}
 @media screen and (max-width: 2560px) {
     html{
         font-size: 14px;
@@ -1148,14 +1150,18 @@ a:hover{
     }
     .modal-content {
         height: 210px;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        background-image: url(./bc393648715f68603b79e1d173f86cee_копия_5.png);
     }
     
     .modal-content input {
-        border-radius: 50px;
-        margin-top: 25px;
+        margin-top: 15px;
         height: 23%;
         font-size: 3rem;
         padding-left: 20px;
+        width: 90%;
     }
     .modal-content button {
         border-radius: 50px;
