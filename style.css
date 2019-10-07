@@ -267,6 +267,9 @@ a:hover{
 .btn{ 
     display: none;
 }
+#button_2{
+    display: none;
+}
 .modal{
     display: none;
 }
@@ -290,10 +293,6 @@ a:hover{
 .modal-content input {
     height: 131px;
     margin-bottom: 6%;
-    font-size: 4rem;
-}
-.btn-primary{
-    display: block;
 }
 @media screen and (max-width: 2560px) {
     html{
@@ -352,7 +351,6 @@ a:hover{
         font-size: 2.7rem;
         margin-left: 5%;
     }
-    
     .youtube {
         left: 8%;
     }
@@ -370,6 +368,10 @@ a:hover{
         align-items: center;
         height: 100vh;
     }
+    #button_2{
+        display: none;;
+    }
+
 }
 
 @media screen and (max-width: 1920px) {
@@ -404,9 +406,6 @@ a:hover{
         top: 36%;
         left: 37%;
     }
-    .btn{
-        display: none;
-    }
     .btn-primary{
         display: block;
         font-size: 1.6rem;
@@ -414,6 +413,9 @@ a:hover{
     .modal-dialog {
         max-width: 778px;
         margin: 0 auto;
+    }
+    #button_2{
+        display: none;;
     }
 }
 @media screen and (max-width: 1800px) {
@@ -428,6 +430,9 @@ a:hover{
     .btn-primary{
         display: block;
         font-size: 2rem;
+    }
+    #button_2{
+        display: none;;
     }
 }
 @media screen and (max-width: 1650px) {
@@ -491,20 +496,19 @@ a:hover{
         top: 31%;
         left: 37%;
     }
-    .btn-primary{
-        display: block;
-        font-size: 2rem;
-    }
     .modal-dialog {
         max-width: 778px;
         margin: 0 auto;
+    }
+    #button_2{
+        display: none;;
     }
 }
 @media screen and (max-width: 1350px) {
     #carouselExampleSlidesOnly {
         width: 41%;
         position: absolute;
-        top: 37%;
+        top: 33%;
         left: 37%;
     }
     .btn-primary{
@@ -625,13 +629,13 @@ a:hover{
         background-color: #DD3575;
     }
     #carouselExampleSlidesOnly {
-        width: 41%;
+        width: 39%;
         position: absolute;
         top: 25%;
         left: 38%;
     }
-    .btn{
-        display: none;
+    #button_2{
+        display: none;;
     }
     .btn-primary{
         display: block;
@@ -867,6 +871,9 @@ a:hover{
         max-width: 778px;
         margin: 0 auto;
     }
+    #button_2{
+        display: flex;
+    }
 }
 @media screen and (max-width: 555px) {
     .batton_vk{
@@ -989,6 +996,9 @@ a:hover{
         font-size: 3rem;
         color: #ffffff;
     }
+    #button_2{
+        display: flex;
+    }
 }
 @media screen and (max-width: 411px) {
     .batton_viber {
@@ -1006,7 +1016,9 @@ a:hover{
     .form{
         display: none;
     }
-
+    #button_2{
+        display: block;;
+    }
     .batton_viber {
         width: 129px;
         position: relative;
@@ -1020,6 +1032,9 @@ a:hover{
         top: -210px;
         left: 203px;
         height: 28px;
+    }
+    #button_2{
+        display: flex;
     }
     
 }
@@ -1036,5 +1051,8 @@ a:hover{
     }
     .icon_vk {
         height: 3rem;
+    }
+    #button_2{
+        display: flex;
     }
 }
