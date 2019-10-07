@@ -759,6 +759,9 @@ a:hover{
     html{
         font-size: 3px;
     }
+    .batton_viber{
+        width: 90%;
+    }
 }
 @media screen and (max-width: 555px) {
     .batton_vk{
@@ -797,11 +800,11 @@ a:hover{
         left: 15%;
     }
     .batton_viber {
-        width: 142px;
+        width: 177px;
         display: flex;
         position: relative;
         top: -227px;
-        left: 195px;
+        left: 162px;
         height: 28px;
     }
     .connect_batton {
@@ -812,10 +815,10 @@ a:hover{
         flex-direction: column;
     }
     .batton_vk {
-        width: 115px;
+        width: 132px;
         position: relative;
         top: -217px;
-        left: 219px;
+        left: 204px;
         height: 28px;
     }
     .wrapper_content__left {
@@ -863,12 +866,30 @@ a:hover{
     .youtube{
         display: none;
     }
+    .modal-content {
+        height: 210px;
+    }
+    .modal-content input {
+        border-radius: 50px;
+        margin-top: 25px;
+        height: 23%;
+        font-size: 3rem;
+        padding-left: 20px;
+    }
+    .modal-content button {
+        border-radius: 50px;
+        background-color: #DD3575;
+        height: 20%;
+        font-size: 3rem;
+        color: #ffffff;
+    }
 
 }
 @media screen and (max-width: 411px) {
     .batton_viber {
         top: -270px;
     }
+
     .batton_vk {
         top: -258px;
     }
@@ -882,28 +903,33 @@ a:hover{
     }
 
     .batton_viber {
-        width: 105px;
+        width: 129px;
         position: relative;
         top: -223px;
-        left: 195px;
+        left: 173px;
         height: 28px;
     }
     .batton_vk {
-        width: 85px;
+        width: 95px;
         position: relative;
         top: -210px;
-        left: 214px;
+        left: 203px;
         height: 28px;
     }
     
 }
 @media screen and (max-width: 320px) {
     .batton_viber {
-        top: -207px;
-        left: 179px;
+        top: -179px;
+        left: 157px;
+        width: 120%;
     }
     .batton_vk {
-        top: -198px;
-        left: 199px;
+        top: -170px;
+        left: 175px;
+        width: 100%;
+    }
+    .icon_vk {
+        height: 3rem;
     }
 }
