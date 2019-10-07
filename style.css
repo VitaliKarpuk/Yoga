@@ -317,6 +317,20 @@ a:hover{
 .modal-content input {
     border-radius: 0;
 }
+.modal_phone{
+    width: 60%;
+    height: 30%;
+    background-image: url(./bc393648715f68603b79e1d173f86cee_копия_5.png)
+}
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:950%;
+}
+.inputs_modal{
+    height: 80%;
+}
 @media screen and (max-width: 2560px) {
     html{
         font-size: 14px;
