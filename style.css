@@ -405,6 +405,11 @@ a:hover{
     .modal-content input {
         width: 100%;
         padding-left: 5%;
+        border: none;
+        font-style: italic;
+    }
+    .modal-content{
+
     }
     .modal.show .modal-dialog {
         display: flex;
@@ -1151,17 +1156,23 @@ a:hover{
     .modal-content {
         height: 210px;
         width: 80%;
+        background-image: url(./bc393648715f68603b79e1d173f86cee_копия_5.png);
         display: flex;
         align-items: center;
-        background-image: url(./bc393648715f68603b79e1d173f86cee_копия_5.png);
+        justify-content: center;
     }
     
     .modal-content input {
-        margin-top: 15px;
         height: 23%;
         font-size: 3rem;
         padding-left: 20px;
         width: 90%;
+        border-radius: 20px;
+    }
+    .modal-content input:last-child {
+        font-style: normal;
+        margin: 0;
+        
     }
     .modal-content button {
         border-radius: 50px;
