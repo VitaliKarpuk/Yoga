@@ -229,7 +229,7 @@ a:hover{
     background-color: #DD3575;
 }
 .youtube {
-    width: 67%;
+    width: 124%;
     height: 30%;
     display: flex;
     justify-content: flex-end;
@@ -247,7 +247,8 @@ a:hover{
     margin-right: 2%;
 }
 .youtube a{
-    width: 50%;
+    width: 100%;
+    height: 30%;
     display: flex;
     align-items: center;
 }
@@ -294,9 +295,20 @@ a:hover{
     height: 131px;
     margin-bottom: 6%;
 }
+.icon_youtube {
+    width: 99%;
+    height: 57%;
+    background-image: url(./youtube.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
 @media screen and (max-width: 2560px) {
     html{
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .connect {
+        height: 32%;
     }
     .logo {
         width: 76%;
@@ -311,12 +323,23 @@ a:hover{
     }
     .connect_batton{
         font-size: 1.8rem;
+        width: 80%;
     }
     .batton_viber {
-        width: 92%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .batton_viber p{
+        margin: 0 auto;
     }
     .batton_vk {
-        width: 65%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .batton_vk p {
+        margin: 0 auto;
     }
     .form {
         width: 100%;
@@ -338,21 +361,28 @@ a:hover{
         background-image: url(./background_2560.psd.png) ;
     }
     #carouselExampleSlidesOnly {
-        width: 52%;
+        width: 47%;
         position: absolute;
-        top: 37%;
-        left: 32%;
+        top: 41%;
+        left: 37%;
     }
     .youtube i {
         margin-top: 0%;
-        font-size: 2.7rem;
+        font-size: 4rem;
+    }
+    .youtube > div{
+        width: 100%;
     }
     .youtube a p {
-        font-size: 2.7rem;
+        font-size: 3.7rem;
         margin-left: 5%;
     }
     .youtube {
-        left: 8%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        right: -42%;
     }
     .btn-primary{
         display: block;
@@ -376,7 +406,7 @@ a:hover{
 
 @media screen and (max-width: 1920px) {
     html{
-        font-size: 11px;
+        font-size: 9px;
     }
     .logo {
         width: 61%;
@@ -442,7 +472,7 @@ a:hover{
 }
 @media screen and (max-width: 1500px) {
     html{
-        font-size: 6px;
+        font-size: 5px;
     }
     .wrapper_content__left {
         width: 39%;
@@ -470,16 +500,43 @@ a:hover{
         width: 75%;
     }
     .batton_vk {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .batton_vk p {
         width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .phon_numder {
+        height: 17%;
+    }
+    .phon_numder button {
+        height: 36%;
+        font-size: 2.3rem;
     }
     .form {
         height: 60%;
     }
+    .wrepper_inputs {
+        height: 95%;
+    }
     .wrepper_inputs > div p span {
         font-weight: bold;
+        font-size: 3.8rem;
+    }
+    .phon_numder p {
+        font-size: 2.5rem;
+    }
+    .inputs input {
+        font-size: 2.5rem;
+    }
+    .wrepper_inputs > div p {
+        font-size: 2.9rem;
     }
     .youtube {
-        width: 67%;
+        width: 100%;
         height: 30%;
         display: flex;
         justify-content: flex-end;
@@ -488,7 +545,13 @@ a:hover{
         right: -42%;
     }
     .youtube p {
+        font-size: 5.7rem;
+
         margin-bottom: 0;
+        font-style: italic;
+    }
+    .youtube a p {
+        font-size: 3rem;
     }
     #carouselExampleSlidesOnly {
         width: 41%;
@@ -502,6 +565,18 @@ a:hover{
     }
     #button_2{
         display: none;;
+    }
+    .icon_viber {
+        width: 12%;
+        height: 3rem;
+    }
+    .icon_vk {
+        width: 15%;
+        height: 3rem;
+    }
+    .icon_youtube {
+        width: 60%;
+        height: 57%;
     }
 }
 @media screen and (max-width: 1350px) {
@@ -545,7 +620,31 @@ a:hover{
 }
 @media screen and (max-width: 1025px){
     html{
-        font-size: 8px;
+        font-size: 6px;
+    }
+    .batton_vk p {
+        width: 82%;
+    }
+    .icon_viber {
+        width: 14%;
+        height: 4rem;
+    }
+    .icon_vk {
+        width: 23%;
+        height: 4rem;
+    }
+    .youtube {
+        width: 100%;
+        height: 63%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        right: 0;
+    }
+    .icon_youtube {
+        width: 60%;
+        height: 17%;
+        font-weight: normal;
     }
     .wrapper_content{
         width: 90%;
@@ -763,7 +862,7 @@ a:hover{
         left: 41%;
     }
     .youtube {
-        width: 69%;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         left: 5%;
@@ -772,6 +871,43 @@ a:hover{
     .btn-primary{
         display: block;
         font-size: 2rem;
+    }
+    .batton_vk p {
+        width: 87%;
+        font-size: 1.5rem;
+    }
+    .batton_viber p {
+        font-size: 1.5rem;
+    }
+    .icon_viber {
+        width: 18%;
+    }
+    .icon_vk {
+        width: 23%;
+    }
+    .phon_numder p {
+        font-size: 1.5rem;
+    }
+    .phon_numder button {
+        height: 43%;
+        font-size: 1.5rem;
+        width: 46%;
+    }
+    .wrepper_inputs > div p span {
+        font-size: 2.3rem;
+    }
+    .wrepper_inputs > div p {
+        font-size: 1.9rem;
+    }
+    .inputs input {
+        font-size: 2rem;
+    }
+    .youtube a p {
+        font-size: 2rem;
+    }
+    .icon_youtube {
+        width: 77%;
+        height: 26%;
     }
 }
 @media screen and (max-width: 736px) {
@@ -791,7 +927,21 @@ a:hover{
         width: 40%;
     }
     html{
-        font-size: 4px;
+        font-size: 3px;
+    }
+    .wrapper_content__left {
+        height: 53%;
+    }
+    .connect {
+        height: 48%;
+    }
+    .batton_viber p {
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+    .batton_vk p {
+        width: 87%;
+        font-size: 1.5rem;
     }
     .batton_vk{
         width: 40%;
@@ -896,11 +1046,16 @@ a:hover{
         background-repeat: no-repeat;
     }
     .icon_viber {
-        height: 2.4rem;
-        width: 14%;
+        height: 2.6rem;
+        width: 13%;
+    }
+    .batton_vk p {
+        width: 84%;
+        font-size: 1.7rem;
     }
     .icon_vk {
         height: 2.5rem;
+        width: 16%;
     }
     .form{
         display: none;
@@ -1004,7 +1159,9 @@ a:hover{
     .batton_viber {
         top: -270px;
     }
-
+    .batton_viber p {
+        font-size: 1.7rem;
+    }
     .batton_vk {
         top: -258px;
     }
@@ -1020,21 +1177,29 @@ a:hover{
         display: block;;
     }
     .batton_viber {
-        width: 129px;
+        width: 164px;
         position: relative;
         top: -223px;
-        left: 173px;
+        left: 142px;
         height: 28px;
     }
     .batton_vk {
-        width: 95px;
+        width: 125px;
         position: relative;
         top: -210px;
-        left: 203px;
+        left: 178px;
         height: 28px;
     }
     #button_2{
         display: flex;
+    }
+    .icon_viber {
+        height: 3.6rem;
+        width: 14%;
+    }
+    .icon_vk {
+        height: 3.7rem;
+        width: 16%;
     }
     
 }
