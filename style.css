@@ -506,7 +506,7 @@ a:hover{
 }
 @media screen and (max-width: 1350px) {
     #carouselExampleSlidesOnly {
-        width: 41%;
+        width: 39%;
         position: absolute;
         top: 33%;
         left: 37%;
