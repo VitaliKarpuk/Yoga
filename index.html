@@ -41,7 +41,22 @@
                 <div class="form">
                     <div class="phon_numder">
                         <p>+375 (044) 743-24-31</p>
-                        <button>Заказать звонок</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            Заказать звонок
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <form action="./send.php" method="post" class="inputs">
+                                            <input name="unumber" class="input_phonNumber" type="text" placeholder="Введите телефон">
+                                            <input type="submit" class="btn_request" value = 'Заказать'/>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="form_inputs">
                         <div class="wrepper_inputs">
@@ -93,6 +108,7 @@
       <input type="submit" class="btn_request" value = 'ОТПРАВИТЬ ЗАЯВКУ'/>
     </form>
   </div>
+
   
 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
