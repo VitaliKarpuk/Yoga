@@ -1093,7 +1093,15 @@ a:hover{
         width: 23%;
     }
 }
-
+@media screen and (max-width: 736px) and (max-height:320px) {
+    .logo {
+        height: 31%;
+        width: 64%;
+    }
+    .connect {
+        height: 56%;
+    }
+}
 @media screen and (max-width: 696px){
     .logo {
         width: 55%;
