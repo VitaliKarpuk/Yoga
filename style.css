@@ -1093,53 +1093,7 @@ a:hover{
         width: 23%;
     }
 }
-@media screen and (max-width: 730px) and (max-height: 411px){
-    .logo{
-        width: 40%;
-    }
-    html{
-        font-size: 3px;
-    }
-    .wrapper_content__left {
-        height: 53%;
-    }
-    .connect {
-        height: 48%;
-    }
-    .batton_viber p {
-        margin: 0 auto;
-        font-size: 1.5rem;
-    }
-    .batton_vk p {
-        width: 87%;
-        font-size: 1.5rem;
-    }
-    .batton_vk{
-        width: 40%;
-    }
-    .icon_viber{
-        width: 7%;
-        height: 2.4rem;
-    }
-    .icon_vk{
-        width: 15%;
-        height: 2.4rem;
-    }
-    #carouselExampleSlidesOnly {
-        width: 20%;
-        position: absolute;
-        top: 40%;
-        left: 45%;
-    }
-    .btn-primary{
-        display: block;
-        font-size: 2rem;
-    }
-    .modal-dialog {
-        max-width: 778px;
-        margin: 0 auto;
-    }
-}
+
 @media screen and (max-width: 696px){
     .logo {
         width: 55%;
