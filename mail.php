@@ -12,15 +12,15 @@ if (empty($bezspama)) /* Оценка поля bezspama - должно быть 
 /* Отправляем сообщение, используя mail() функцию */
 $from  = "From: $name <$email> \r\n Reply-To: $email \r\n";
 if (mail($to, $tema, $message, $headers)) {
-    header('Refresh: 5; URL=http://kontakt.ormedia.by/');
+    header('Refresh: 5; URL=http://shangriyoga.by/');
     echo '
     
-    Письмо отправлено, через 5 секунд вы вернетесь на страницу';}
+    Письмо отправлено';}
 else {
-    header('Refresh: 2; URL=http://kontakt.ormedia.by/');
+    header('Refresh: 2; URL=http://shangriyoga.by/');
     echo '
     
-    Письмо не отправлено, через 5 секунд вы вернетесь на страницу YYY';}
+    Письмо не отправлено';}
 }
 exit; /* Выход без сообщения, если поле bezspama заполнено спам ботами */
 ?>
