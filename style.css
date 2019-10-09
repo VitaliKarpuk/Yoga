@@ -1102,6 +1102,11 @@ a:hover{
         height: 56%;
     }
 }
+@media screen and (max-width: 736px) and (max-height:270px) {
+    html{
+        font-size: 4px;
+    }
+}
 @media screen and (max-width: 696px){
     .logo {
         width: 55%;
